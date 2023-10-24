@@ -1,0 +1,87 @@
+.containers{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.option{
+    padding-bottom: 10px;
+}
+
+.containers .option .container .c1{
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(59,143,54);
+}
+
+.containers .option .container .c1 i{
+    margin-right: 10px;
+}
+
+.containers .option .container .match{
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(153,197,57);
+}
+
+.containers .option .container .rank{
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(153,197,57);
+}
+
+i{
+    text-align: center;
+}
+
+h1,h4 {
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+  
+}
+
+b{
+    text-align: center;
+}
+
+.box {
+    /* font-size: 20px; */
+    margin: 0 auto;
+    width:600px;
+    height:400px;
+    padding: 30px;
+    border:none;
+    background-color: rgb(222,241,200);
+    /* padding-left: 300px;
+    padding-right: 300px; */
+}
