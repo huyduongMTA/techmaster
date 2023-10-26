@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <table>
+      <th colspan="2" class="head">     
+      <!-- <caption>
+        <h1>ĐĂNG KÝ</h1>
+      </caption> -->
+      ĐĂNG KÝ
+    </th>
+      <tr>
+        <td>Full name</td>
+        <td><input type="text" placeholder="Nhập fullname" /></td>
+      </tr>
+
+      <tr>
+        <td>Usename</td>
+        <td><input type="text" placeholder="Nhập tên" /></td>
+      </tr>
+
+      <tr>
+        <td>Password</td>
+        <td><input type="password" placeholder="Nhập mật khẩu" /></td>
+      </tr>
+      <tr>
+        <td>Nhập lại Password</td>
+        <td><input type="password" placeholder="Nhập lại mật khẩu" /></td>
+      </tr>
+      <tr>
+        <td>Giới tính</td>
+        <td>
+          <form action="sex" class="checkbox">
+            <input
+              type="radio"
+              id="nam"
+              name="fav_language"
+              value="Nam"
+            /><label for="nam">Nam</label>
+            <input type="radio" id="nu" name="fav_language" value="Nu" /><label
+              for="nu"
+              >Nữ</label
+            >
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Ngày sinh</td>
+        <td>
+          <form>
+            <select name="day" id="01">
+              <option value="day 1">Ngày 1</option>
+              <option value="day 2">Ngày 2</option>
+              <option value="day 3">Ngày 3</option>
+            </select>
+
+            <select name="month" id="02">
+              <option value="month 1">Tháng 1</option>
+              <option value="month 2">Tháng 2</option>
+              <option value="month 3">Tháng 3</option>
+            </select>
+
+            <select name="year" id="03">
+              <option value="year 1">Năm 2015</option>
+              <option value="year 2">Năm 2016</option>
+              <option value="year 3">Năm 2017</option>
+            </select>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Địa chỉ</td>
+        <td>
+          <form action="react" class="react">
+            <textarea name="address" id="04" cols="30" rows="3"></textarea>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Avatar</td>
+        <td>
+          <form action="avatar">
+            <button type="button">Choose file</button>
+            <button type="button">No file choose</button>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>Sở thích</td>
+        <td>
+        <form action="checkbox" class="check">
+          <input type="checkbox" id="check" name="checkbox"><label for="checkbox">Xem phim</label>
+          <input type="checkbox" id="check" name="checkbox"><label for="checkbox">Thể thao</label>
+          <input type="checkbox" id="check" name="checkbox"><label for="checkbox">Web</label>
+        </form>
+      </td>
+      </tr>
+      <tr>
+        <th colspan="2" class="foot">
+          <button>Reset</button>
+          <button>OK</button>
+        </th>
+      </tr>
+   
+    
+    </table>
+  </body>
+</html>
