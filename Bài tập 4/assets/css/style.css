@@ -28,7 +28,7 @@
   margin-bottom: 30px;
 }
 
-.menu_1 a{
+.menu_1 a {
   text-decoration: none;
 }
 
@@ -36,8 +36,8 @@
   width: 280px;
   height: 330px;
   background-color: #fff;
-  box-shadow: 10px yellow;
-  border-radius: 5px;
+  box-shadow: 0 2px 2px gray;
+  border-radius: 10px;
 }
 
 .image {
@@ -50,6 +50,7 @@
   width: 100%;
   height: 180px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .text_1 {
@@ -138,7 +139,7 @@
   margin-top: 30px;
 }
 
-.address{
+.address {
   display: flex;
   flex-direction: column;
 }
@@ -147,17 +148,17 @@
   color: #fff;
 }
 
-.footer .information a{
+.footer .information a {
   color: #fff;
   text-decoration: none;
   font-size: 15px;
 }
 
-.footer .information a:hover{
+.footer .information a:hover {
   color: gray;
 }
 
-.footer .introduce h5{
+.footer .introduce h5 {
   color: #fff;
 }
 
@@ -167,15 +168,17 @@
   font-size: 15px;
 }
 
-.footer .introduce a:hover{
+.footer .introduce a:hover {
   color: gray;
 }
 
-.footer .advise h5{
+.footer .advise h5 {
   color: #fff;
 }
 
-.footer .advise .advise_1_1, .advise_1_2, .advise_1_3{
+.footer .advise .advise_1_1,
+.advise_1_2,
+.advise_1_3 {
   color: #fff;
 }
 
@@ -185,28 +188,26 @@
   font-size: 15px;
 }
 
-.footer .advise a:hover{
-  color: gray
+.footer .advise a:hover {
+  color: gray;
 }
 
-.address h5{
+.address h5 {
   color: #fff;
 }
 
-.address a{
+.address a {
   color: #fff;
   text-decoration: none;
   font-size: 15px;
 }
 
-.address a:hover{
+.address a:hover {
   color: gray;
 }
 
-.icon_social{
+.icon_social {
   padding-top: 30px;
   display: flex;
   justify-content: space-around;
 }
-
-
