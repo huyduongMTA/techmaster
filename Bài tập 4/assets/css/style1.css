@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: gainsboro;
+}
+
+button{
+    color: #fff;
+    background-color: rgb(40,167,69);
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+.content .heading h3{
+   margin-left: 50%;
+}
+
+.content h2{
+    margin-left: 10px;
+}
+
+.content p{
+    margin-left: 10px;
+}
+
+.content .body h3{
+    margin-left: 10px;
+}
+
+.content .body ul li{
+    margin-left: 30px;
+}
