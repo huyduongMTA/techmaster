@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đồ án Web cơ bản</title>
+    <!--import icon-->
+    <link rel="stylesheet" href="./lib/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="./lib/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="./lib/fontawesome/css/solid.css" />
+    <!--import font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+    <link href="https://db.onlinewebfonts.com/c/05549cf893d9543a6c16e1d66f4858b2?family=AmstelvarAlpha+Default" rel="stylesheet" />
+    <!--import carousel-->
+    <link rel="stylesheet" href="./lib/owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./lib/owlcarousel/assets/owl.theme.default.min.css" />
+    <!-- Import file style css-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-main">
+        <!--header top -->
+        <div class="header">
+          <div class="top-header">
+            <!-- logo và account-->
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="15" viewBox="0 0 31 15" fill="none">
+              <path d="M0.353554 7.5L7.5 0.353554L14.6464 7.5L7.5 14.6464L0.353554 7.5Z" stroke="black" stroke-width="0.5" />
+              <path d="M8.35355 7.5L15.5 0.353554L22.6464 7.5L15.5 14.6464L8.35355 7.5Z" stroke="black" stroke-width="0.5" />
+              <path d="M16.3536 7.5L23.5 0.353554L30.6464 7.5L23.5 14.6464L16.3536 7.5Z" stroke="black" stroke-width="0.5" />
+            </svg>
+            <span>CORAL</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="15" viewBox="0 0 31 15" fill="none">
+              <path d="M0.353554 7.5L7.5 0.353554L14.6464 7.5L7.5 14.6464L0.353554 7.5Z" stroke="black" stroke-width="0.5" />
+              <path d="M8.35355 7.5L15.5 0.353554L22.6464 7.5L15.5 14.6464L8.35355 7.5Z" stroke="black" stroke-width="0.5" />
+              <path d="M16.3536 7.5L23.5 0.353554L30.6464 7.5L23.5 14.6464L16.3536 7.5Z" stroke="black" stroke-width="0.5" />
+            </svg>
+            <ul class="account">
+              <li>
+                <button>
+                  <i class="fa-solid fa-user"></i>
+                  <a href="#">Account</a>
+                </button>
+              </li>
+              <li>
+                <button>
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <a href="#">Shoping</a>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <!-- thẻ line-->
+          <hr />
+          <!-- menu top-->
+          <ul class="menu">
+            <li>Jewelry & Accessories</li>
+            <li>Clothing & Shoes</li>
+            <li>Home & Living</li>
+            <li>Wedding & Party</li>
+            <li>Toys & Entertainment</li>
+            <li>Art & Collectibles</li>
+            <li>Craft Supplies & Tools</li>
+          </ul>
+        </div>
+        <!-- thẻ product-->
+        <div class="product">
+          <div class="content">
+            <p>Collections</p>
+            <p> you can explore ans shop many differnt collection from various barands here. </p>
+            <button>
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span> shop now </span>
+            </button>
+          </div>
+          <div class="image">
+            <img src="./assets/image/product/image-product.png" />
+          </div>
+        </div>
+        <div class="flower">
+          <div class="frame1">
+            <img src="./assets/image/product/Frame1.png" />
+          </div>
+          <div class="frame2">
+            <img src="./assets/image/product/Frame2.png" />
+          </div>
+        </div>
+      </div>
+      <div class="brand">
+        <img src="./assets/image/brand/1.png" alt="brand1" />
+        <img src="./assets/image/brand/2.png" alt="brand1" />
+        <img src="./assets/image/brand/3.png" alt="brand1" />
+        <img src="./assets/image/brand/4.png" alt="brand1" />
+        <img src="./assets/image/brand/5.png" alt="brand1" />
+      </div>
+      <div class="hot_category">
+        <p>Explore new and popular styles</p>
+        <div class="card_left">
+          <img src="./assets/image/hot category/18.png" alt="hot1" />
+          <!-- content ẩn -->
+          <div class="product_shop">
+            <span> Manto </span>
+            <span> 86 Product </span>
+          </div>
+        </div>
+        <div class="card_right">
+          <!-- hàng 1-->
+          <div class="row">
+            <div class="card column_1">
+              <div class="content_card">
+                <img src="./assets/image/hot category/card.png" alt="hot2" />
+                <!-- conten ẩn -->
+                <div class="product_shop">
+                  <span> Pants </span>
+                  <span> 200 Product </span>
+                </div>
+              </div>
+            </div>
+            <!--cột 2-->
+            <div class="card column_1">
+              <div class="content_card">
+                <img src="./assets/image/hot category/03.png" alt="hot3" />
+                <!-- conten ẩn -->
+                <div class="product_shop">
+                  <span> Coat </span>
+                  <span> 520 Product </span>
+                </div>
+                <div class="sale">SALE</div>
+              </div>
+            </div>
+          </div>
+          <!-- hàng 2-->
+          <div class="row1">
+            <div class="card column_1">
+              <div class="content_card">
+                <img src="./assets/image/hot category/card (1).png" alt="hot4" />
+                <!-- conten ẩn -->
+                <div class="product_shop">
+                  <span> Shirt </span>
+                  <span> 320 Product </span>
+                </div>
+              </div>
+            </div>
+            <!--cột 2-->
+            <div class="card column_1">
+              <div class="content_card">
+                <img src="./assets/image/hot category/20.png" alt="hot5" />
+                <!-- conten ẩn -->
+                <div class="product_shop">
+                  <span> Jacket </span>
+                  <span> 103 Product </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- danh sách menu li-->
+      <div class="products">
+        <div class="top_title">
+          <div class="title">Or subscribe to the newsletter</div>
+        </div>
+        <div class="section">
+          <div class="option_category">
+            <ul>
+              <li>
+                <a class="item-tab" href="#">All Products</a>
+              </li>
+              <li>
+                <a class="item" href="#">T-Shirt</a>
+              </li>
+              <li>
+                <a class="item" href="#">Hoodies</a>
+              </li>
+              <li>
+                <a class="item" href="#">Jacket</a>
+              </li>
+            </ul>
+          </div>
+          <button>
+            <i class="fa-solid fa-filter"></i>
+            <span>Fillter</span>
+          </button>
+        </div>
+        <!--top seclection sản phẩm hang 1-->
+        <div class="row_product">
+          <!--cột 1-->
+          <div class="hot product_column">
+            <div class="product_content">
+              <div class="product_image">
+                <img src="./assets/image/product/image-product-1.png" alt="joggers" />
+                <div class="product_shop">
+                  <i class="fa-regular fa-heart fa-fade"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span> Shop Now </span>
+                  </button>
+                </div>
+              </div>
+              <div class="botton_product">
+                <span>Adicolor Classics Joggers</span>
+                <span>Dress</span>
+                <span>$63.85</span>
+              </div>
+            </div>
+          </div>
+          <!--cột 2-->
+          <div class="hot product_column">
+            <div class="product_content">
+              <div class="product_image">
+                <img src="./assets/image/product/image-product-2.png" alt="joggers" />
+                <div class="product_shop">
+                  <i class="fa-regular fa-heart fa-fade"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span> Shop Now </span>
+                  </button>
+                </div>
+              </div>
+              <div class="botton_product">
+                <span>Nike Sportswear Futura Luxe</span>
+                <span>Bag</span>
+                <span>$130.00</span>
+              </div>
+            </div>
+          </div>
+          <!--cột 3-->
+          <div class="hot product_column">
+            <div class="product_content">
+              <div class="product_image">
+                <img src="./assets/image/product/image-product-3.png" alt="joggers" />
+                <div class="product_shop">
+                  <i class="fa-regular fa-heart fa-fade"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span> Shop Now </span>
+                  </button>
+                </div>
+              </div>
+              <div class="botton_product">
+                <span>Geometric print Scarf</span>
+                <span>Scarf</span>
+                <span>$53.00</span>
+              </div>
+            </div>
+          </div>
+          <!--cột 4-->
+          <div class="hot product_column">
+            <div class="product_content">
+              <div class="product_image">
+                <img src="./assets/image/product/image-product 4.png" alt="joggers" />
+                <div class="sale">SALE</div>
+                <div class="product_shop">
+                  <i class="fa-regular fa-heart fa-fade"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span> Shop Now </span>
+                  </button>
+                </div>
+              </div>
+              <div class="botton_product">
+                <span>Yellow Reserved Hoodie</span>
+                <span>Dress</span>
+                <span class="discount">$155.00</span>
+                <span class="discount_hide">$130.00</span>
+                <span class="discount1">$364.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- top grid hang 2-->
+        <div class="row2-product">
+          <!--top grid hang 2 cột 1-->
+          <div class="hot product_column">
+            <div class="product_content">
+              <div class="product_image">
+                <img src="./assets/image/product/image-product-5.png" alt="joggers" />
+                <div class="hot">Hot</div>
+                <div class="product_shop">
+                  <i class="fa-regular fa-heart fa-fade"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span> Shop Now </span>
+                  </button>
+                </div>
+              </div>
+              <div class="botton_product">
+                <span>Basic Dress Green</span>
+                <span>Dress</span>
+                <span>$236.00</span>
+              </div>
+            </div>
+          </div>
+          <!--top grid hang 2 cột 2-->
+          <div class="hot product_column">
+            <div class="product_content">
+              <div class="product_image">
+                <img src="./assets/image/product/image-product-6.png" alt="joggers" />
+                <div class="sale">SALE</div>
+                <div class="product_shop">
+                  <i class="fa-regular fa-heart fa-fade"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span> Shop Now </span>
+                  </button>
+                </div>
+              </div>
+              <div class="botton_product">
+                <span>Nike Air Zoom Pegasus</span>
+                <span>Shoe</span>
+                <span class="discount">$198.00</span>
+                <span class="discount_hide">$130.00</span>
+                <span class="discount1">$220.00</span>
+              </div>
+            </div>
+          </div>
+          <!--top grid hang 2 cột 3-->
+          <div class="hot product_column">
+            <div class="product_content">
+              <div class="product_image">
+                <img src="./assets/image/product/image-product-7.png" alt="joggers" />
+                <div class="product_shop">
+                  <i class="fa-regular fa-heart fa-fade"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span> Shop Now </span>
+                  </button>
+                </div>
+              </div>
+              <div class="botton_product">
+                <span>Nike Repel Miler</span>
+                <span>Dress</span>
+                <span>$120.50</span>
+              </div>
+            </div>
+          </div>
+          <!--top grid hang 2 cột 4-->
+          <div class="hot product_column">
+            <div class="product_content">
+              <div class="product_image">
+                <img src="./assets/image/product/image-product-8.png" alt="joggers" />
+                <div class="product_shop">
+                  <i class="fa-regular fa-heart fa-fade"></i>
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <button>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span> Shop Now </span>
+                  </button>
+                </div>
+              </div>
+              <div class="botton_product">
+                <span>Nike Sportswear Futura Luxe</span>
+                <span>Glasses</span>
+                <span>$160.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- improt baner-->
+      <div class="baner" style="background-image: url('./assets/image/product/background.png')">
+        <div class="baner_logo_1" style="
+            background-image: url('./assets/image/product/1024px-Zara_Logo\ 1.png');
+          "></div>
+        <div class="baner_logo_2" style="
+            background-image: url('./assets/image/product/1024px-Zara_Logo\ 2.png');
+          "></div>
+        <div class="baner_content"> Lustrous yet understated. The new evening wear collection exclusively offered at the reopened Giorgio Armani boutique in Los Angeles. </div>
+        <button>see collection</button>
+      </div>
+      <!-- dữ liệU slider product-->
+      <div class="slide_product">
+        <div class="slide_tittle">Best sellers</div>
+        <div class="section">
+          <div class="option_category">
+            <ul>
+              <li>
+                <a class="item-tab" href="#">All Products</a>
+              </li>
+              <li>
+                <a class="item" href="#">T-Shirt</a>
+              </li>
+              <li>
+                <a class="item" href="#">Hoodies</a>
+              </li>
+              <li>
+                <a class="item" href="#">Jacket</a>
+              </li>
+            </ul>
+          </div>
+          <button>
+            <span>Show All</span>
+          </button>
+        </div>
+        <!--import carousel-->
+        <div class="row2-product">
+          <!-- import carousel cột 1-->
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="product_content">
+                <div class="product_image">
+                  <img src="./assets/image/product/image-product-5.png" alt="joggers" />
+                  <div class="hot">Hot</div>
+                  <div class="product_shop">
+                    <i class="fa-regular fa-heart fa-fade"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping"></i>
+                      <span> Shop Now </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="botton_product">
+                  <span>Basic Dress Green</span>
+                  <span>Dress</span>
+                  <span>$236.00</span>
+                </div>
+              </div>
+            </div>
+            <!-- import carousel cột 2-->
+            <div class="item">
+              <div class="product_content">
+                <div class="product_image">
+                  <img src="./assets/image/product/image-product-2.png" alt="joggers" />
+                  <div class="product_shop">
+                    <i class="fa-regular fa-heart fa-fade"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping"></i>
+                      <span> Shop Now </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="botton_product">
+                  <span>Nike Sportswear Futura Luxe</span>
+                  <span>Bag</span>
+                  <span>$130.00</span>
+                </div>
+              </div>
+            </div>
+            <!--import carousel  cột 3-->
+            <div class="item">
+              <div class="product_content">
+                <div class="product_image">
+                  <img src="./assets/image/product/image-product 4.png" alt="joggers" />
+                  <div class="sale">SALE</div>
+                  <div class="product_shop">
+                    <i class="fa-regular fa-heart fa-fade"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping"></i>
+                      <span> Shop Now </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="botton_product">
+                  <span>Yellow Reserved Hoodie</span>
+                  <span>Dress</span>
+                  <span class="discount">$155.00</span>
+                  <span class="discount_hide">$130.00</span>
+                  <span class="discount1">$364.00</span>
+                </div>
+              </div>
+            </div>
+            <!-- import carousel cột4-->
+            <div class="item">
+              <div class="product_content">
+                <div class="product_image">
+                  <img src="./assets/image/product/image-product-6.png" alt="joggers" />
+                  <div class="sale">SALE</div>
+                  <div class="product_shop">
+                    <i class="fa-regular fa-heart fa-fade"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping"></i>
+                      <span> Shop Now </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="botton_product">
+                  <span>Nike Air Zoom Pegasus</span>
+                  <span>Shoe</span>
+                  <span class="discount">$198.00</span>
+                  <span class="discount_hide">$130.00</span>
+                  <span class="discount1">$220.00</span>
+                </div>
+              </div>
+            </div>
+            <!-- import carousel cột 5-->
+            <div class="item">
+              <div class="product_content">
+                <div class="product_image">
+                  <img src="./assets/image/product/image-product-8.png" alt="joggers" />
+                  <div class="product_shop">
+                    <i class="fa-regular fa-heart fa-fade"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <button>
+                      <i class="fa-solid fa-bag-shopping"></i>
+                      <span> Shop Now </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="botton_product">
+                  <span>Nike Sportswear Futura Luxe</span>
+                  <span>Glasses</span>
+                  <span>$160.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="para">
+        <div class="container_para">
+          <div class="para_title"> Follow products and discounts on Instagram </div>
+          <div class="row_para">
+            <!--cột 1-->
+            <div class="show para_column">
+              <div class="para_content">
+                <img src="./assets/image/instagram/img/image-product-1.png" alt="joggers" />
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+            <!--cột 2-->
+            <div class="show para_column">
+              <div class="para_content">
+                <img src="./assets/image/instagram/img/image-product-2.png" alt="joggers" />
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+            <!--cột 3-->
+            <div class="show para_column">
+              <div class="para_content">
+                <img src="./assets/image/instagram/img/image-product-3.png" alt="joggers" />
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+            <!--cột 4-->
+            <div class="show para_column">
+              <div class="para_content">
+                <img src="./assets/image/instagram/img/image-product-4.png" alt="joggers" />
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+            <!--cột 5-->
+            <div class="show para_column">
+              <div class="para_content">
+                <img src="./assets/image/instagram/img/image-product-5.png" alt="joggers" />
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+            <!--cột 6-->
+            <div class="show para_column">
+              <div class="para_content">
+                <img src="./assets/image/instagram/img/image-product-6.png" alt="joggers" />
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+          <div class="para_form">
+            <form>
+              <p>Or subscribe to the newsletter</p>
+              <input type="email" placeholder="Email Adress..." />
+              <input type="submit" name="submit" value="SUMBIT" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--footer-->
+      <div class="footer">
+        <!-- top foooter-->
+        <div class="top_foot">
+          <div class="left_foot">
+            <img src="./assets/image/footer/Group 98.png" />
+            <span>CORAL</span>
+            <img src="./assets/image/footer/Group 98.png" />
+            <p class="left_content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+            <div>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+          <div class="footer_menu">
+            <p>CATALOG</p>
+            <ul>
+              <li>
+                <a href="#">Necklaces</a>
+              </li>
+              <li>
+                <a href="#">Hoodies</a>
+              </li>
+              <li>
+                <a href="#">Jewelry Box</a>
+              </li>
+              <li>
+                <a href="#">T-Shirt</a>
+              </li>
+              <li>
+                <a href="#">Jacket</a>
+              </li>
+            </ul>
+          </div>
+          <div class="main_1 footer_menu">
+            <p>ABOUT US</p>
+            <ul>
+              <li>
+                <a href="#">Our Producers</a>
+              </li>
+              <li>
+                <a href="#">Sitemap</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Terms & Conditions</a>
+              </li>
+            </ul>
+          </div>
+          <div class="main_2 footer_menu">
+            <p>CUSTOMER SERVICES</p>
+            <ul>
+              <li>
+                <a href="#">Contact Us</a>
+              </li>
+              <li>
+                <a href="#">Track Your Order</a>
+              </li>
+              <li>
+                <a href="#">Product Care & Repair</a>
+              </li>
+              <li>
+                <a href="#">Book an Appointment</a>
+              </li>
+              <li>
+                <a href="#">Shipping & Returns</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--botton footer-->
+        <div class="botton_footer">
+          <div class="year">© 2022 Coral , Inc.</div>
+          <div>
+            <img src="./assets/image/footer/icons_payment 1.png" />
+          </div>
+          <button>
+            <span>
+              <a href="#">Scrop to top</a>
+            </span>
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--import jquery-->
+    <script src="./lib/jquery-3.7.1.min.js"></script>
+    <!--import carousel js-->
+    <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+    <!--import main.js-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
