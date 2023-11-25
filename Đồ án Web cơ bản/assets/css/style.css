@@ -110,7 +110,7 @@
     background: #e3e3e3;
   }
   
-  /* menu top*/
+
   
   .header .menu {
     width: 1320px;
@@ -125,7 +125,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     text-transform: capitalize;
     color: var(--Dark, #000);
     font-feature-settings: "clig" off, "liga" off;
@@ -136,7 +136,7 @@
     color: rgb(243, 86, 51);
   }
   
-  /* content thẻ product, shopnow*/
+  
   .top-main .product {
     width: 1226px;
     height: 562px;
@@ -213,7 +213,7 @@
     background-color: rgb(243, 86, 51);
   }
   
-  /* flower-pattern*/
+  
   .top-main .flower {
     position: absolute;
     width: 1920px;
@@ -247,7 +247,7 @@
     display: inline-flex;
   }
   
-  /* Thẻ Brand*/
+  
   .brand {
     width: 1320px;
     height: 70px;
@@ -256,7 +256,7 @@
     display: inline-flex;
     margin: 90px 300px 90px 300px;
   }
-  /*sản phầm hot*/
+  
   .hot_category {
     width: 1320px;
     height: 648px;
@@ -322,7 +322,7 @@
     padding-right: 14px;
   }
   
-  /* chia ô 4 sản phẩm nhỏ card product*/
+  /* chia ô card product*/
   .card_right {
     width: 648px;
     height: 648px;
@@ -376,7 +376,7 @@
     margin: 24px -12px 0 -12px;
   }
   
-  /* grid product tiêu đề, menu*/
+  /* product tiêu đề, menu*/
   .products {
     width: 1320px;
     height: 1141px;
@@ -431,8 +431,8 @@
     text-decoration: none;
   }
   
-  /*menu danh mục section*/
-  .option_category ul li .item-tab {
+ 
+  .option_category ul li .item_main {
     color: black;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
@@ -487,7 +487,7 @@
     font-weight: 900;
     word-wrap: break-word;
   }
-  /* hover fillter */
+
   .section button:hover {
     background-color: rgb(243, 86, 51);
   }
@@ -520,7 +520,7 @@
     align-items: center;
     flex-shrink: 0;
   }
-  /*tên, nội dung, giá sp*/
+
   .product_content .botton_product {
     height: 60px;
     margin: 18px 10px 0 10px;
@@ -566,7 +566,7 @@
     bottom: 0;
     right: 0;
   }
-  /* hình ảnh sản phẩm*/
+
   .product_content .product_image {
     position: relative;
   }
@@ -586,7 +586,7 @@
     display: none;
   }
   
-  /*button */
+ 
   .product_content .product_shop button {
     background-color: black;
     color: white;
@@ -740,7 +740,7 @@
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
-    line-height: 48px; /* 153.846% */
+    line-height: 48px;
     text-transform: capitalize;
     color: #fff;
     position: absolute;
@@ -762,7 +762,7 @@
     left: 1084px;
     top: 611px;
   }
-  /*chuyển màu button khi di chuột đếN*/
+  
   .baner button:hover {
     background-color: #ff6f61;
   }
@@ -797,7 +797,7 @@
     height: 554px;
   }
   
-  /* chia ô, cột liên hệ instagram*/
+  /* chia ô instagram*/
   
   .para_title {
     text-align: center;
@@ -831,7 +831,7 @@
     position: relative;
   }
   
-  /* chèn logo íntstagram ẩn*/
+  /* chèn logo instagram ẩn*/
   .para_content i {
     position: absolute;
     font-size: 48px;
@@ -848,7 +848,7 @@
     filter: brightness(50%);
   }
   
-  /*tittle form sản phẩm newsletter*/
+  /*title form sản phẩm*/
   .para_form {
     width: 760px;
     height: 165px;
@@ -907,19 +907,19 @@
     margin-top: 140px;
   }
   
-  /* Thẻ top footer*/
+
   .top_foot {
     width: 1320px;
     height: 213px;
     margin: auto;
     display: flex;
   }
-  /* footer menu*/
+
   .footer_menu {
     width: 300px;
     height: 213px;
   }
-  /* Thẻ top footer bên trái*/
+
   .left_foot {
     width: 392px;
     height: 207px;
@@ -971,7 +971,6 @@
     text-align: center;
   }
   /* Thẻ menu footer sử dụng ul li*/
-  
   .footer .footer_menu {
     width: 200px;
   }
@@ -1011,7 +1010,7 @@
     color: rgb(243, 86, 51);
   }
   
-  /* botton footer*/
+
   .botton_footer {
     width: 1920px;
     height: 52px;
