@@ -1,1070 +1,1064 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .container {
-    margin: auto;
-    min-height: 100vh;
-    width: 1920px;
-  }
-  
-  .top-main {
-    width: 1920px;
-    height: 847px;
-    flex-shrink: 0;
-    background-color: var(--Black-5, rgba(30, 40, 50, 0.05));
-    position: relative;
-    padding-top: 31px;
-  }
-  
-  .header {
-    width: 1320px;
-    height: 113px;
-    margin: auto;
-    gap: 30px;
-  }
-  
-  .top-header {
-    width: 1320px;
-    height: 59px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-  }
-  
-  .top-header span {
-    color: var(--Dark, #000);
-    font-family: "AmstelvarAlpha", sans-serif;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  .top-header svg {
-    margin: 10px;
-  }
-  .top-header > i {
-    position: absolute;
-    left: 0;
-    top: 4px;
-    display: flex;
-    width: 25px;
-    height: 25px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-  }
-  
-  .account {
-    display: flex;
-    width: 221px;
-    height: 25px;
-    position: absolute;
-    top: 4px;
-    right: 2px;
-    padding-right: 0px;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .account button {
-    width: 100px;
-    height: 25px;
-    border: none;
-    background: none;
-    margin: 0;
-    font-size: 18px;
-  }
-  
-  .account li {
-    list-style-type: none;
-  }
-  
-  .account li button i {
-    margin-right: 8px;
-    font-size: 20px;
-  }
-  
-  .account li button a {
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
-    color: black;
-  }
-  .account li button:hover a {
-    color: rgb(243, 86, 51);
-  }
-  
-  .account li button:hover i {
-    color: rgb(243, 86, 51);
-  }
-  
-  hr {
-    height: 1px;
-    background: #e3e3e3;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
-  .header .menu {
-    width: 1320px;
-    display: flex;
-    margin-top: 30px;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .header ul li {
-    font-family: Open Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    text-transform: capitalize;
-    color: var(--Dark, #000);
-    font-feature-settings: "clig" off, "liga" off;
-    list-style-type: none;
-  }
-  
-  .header ul li:hover {
-    color: rgb(243, 86, 51);
-  }
-  
-  
-  .top-main .product {
-    width: 1226px;
-    height: 562px;
-    display: flex;
-    margin-left: 300px;
-    margin-top: 81px;
-    z-index: 0;
-  }
-  
-  .top-main .product .content {
-    width: 686px;
-    height: 364px;
-    margin-top: 74px;
-    padding-left: 4px;
-    z-index: 99999999;
-  }
-  
-  .product .content p:nth-child(1) {
-    color: black;
-    font-size: 74px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    text-transform: capitalize;
-    line-height: 55px;
-    word-wrap: break-word;
-  }
-  
-  .product .content p:nth-child(2) {
-    color: black;
-    font-size: 30px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 61px;
-    word-wrap: break-word;
-    margin-top: 52px;
-  }
-  
-  .product .image {
-    margin-left: 98px;
-  }
-  .product .content button {
-    width: auto;
-    height: 72px;
-    padding: 19px 26px 19px 26px;
-    background-color: #1e2832;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    display: inline-flex;
-    margin-top: 66px;
-    border: 0px;
-  }
-  
-  .product .content button span {
-    color: white;
-    font-size: 29px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    text-transform: capitalize;
-    word-wrap: break-word;
-    margin-left: 8px;
-  }
-  
-  .product .content button i {
-    color: white;
-    font-size: 24px;
-    font-family: Font Awesome 6 Free;
-    font-weight: 900;
-    word-wrap: break-word;
-  }
-  
-  .product .content button:hover {
-    background-color: rgb(243, 86, 51);
-  }
-  
-  
-  .top-main .flower {
-    position: absolute;
-    width: 1920px;
-    height: 373px;
-    top: 365.8px;
-    display: flex;
-  }
-  
-  .top-main .flower .frame1 {
-    width: 132.31px;
-    height: 114.61px;
-    left: 0.02px;
-    bottom: 3%;
-    position: absolute;
-  }
-  
-  .top-main .flower .frame2 {
-    width: 194.75px;
-    height: 261.91px;
-    position: absolute;
-  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    right: 10px;
-    bottom: 20%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-  }
-  
-  
-  .brand {
-    width: 1320px;
-    height: 70px;
-    justify-content: space-between;
-    align-items: center;
-    display: inline-flex;
-    margin: 90px 300px 90px 300px;
-  }
-  
-  .hot_category {
-    width: 1320px;
-    height: 648px;
-    margin: 0px 300px 90px 300px;
-  
-    display: flex;
-    position: relative;
-  }
-  
-  .hot_category p {
-    width: 648px;
-    height: 52px;
-    font-size: 34px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    position: absolute;
-    top: 298px;
-    left: -350px;
-    transform: rotate(-90deg);
-    text-align: center;
-    color: var(--Dark, #000);
-    font-feature-settings: "clig" off, "liga" off;
-  }
-  
-  .card_left {
-    width: 648px;
-    height: 648px;
-    position: relative;
-  }
-  /* content product ẩn */
-  .hot_category .product_shop {
-    width: 100%;
-    height: 52px;
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    color: white;
-    font-family: "Open Sans", sans-serif;
-    align-items: center;
-    display: flex;
-    font-size: 16px;
-    justify-content: space-between;
-    padding-left: 14px;
-    padding-right: 14px;
-    display: none;
-  }
-  
-  .card_left:hover .product_shop {
-    display: inline-block;
-    justify-content: space-between;
-    padding-left: 14px;
-    display: flex;
-    padding-right: 14px;
-  }
-  
-  .content_card:hover .product_shop {
-    display: block;
-    justify-content: space-between;
-    padding-left: 14px;
-    display: flex;
-    padding-right: 14px;
-  }
-  
-  /* chia ô card product*/
-  .card_right {
-    width: 648px;
-    height: 648px;
-    margin-left: 24px;
-  }
-  
-  .row {
-    height: 312px;
-    display: flex;
-    margin: 0 -12px;
-  }
-  
-  .card {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  
-  .column_1 {
-    width: calc(100% / 2);
-  }
-  
-  .content_card {
-    width: 100%;
-    height: 312px;
-    margin-bottom: 20px;
-    position: relative;
-  }
-  
-  .column_1 .content_card .sale {
-    width: 52px;
-    height: 24px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: absolute;
-    top: 22px;
-    left: 0;
-    background-color: black;
-    color: var(--White, #fff);
-    font-feature-settings: "clig" off, "liga" off;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .row1 {
-    height: 312px;
-    display: flex;
-    margin: 24px -12px 0 -12px;
-  }
-  
-  /* product tiêu đề, menu*/
-  .products {
-    width: 1320px;
-    height: 1141px;
-    margin: 140px 300px 0 300px;
-  }
-  
-  .top_title {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  /* tiêu đề*/
-  .title {
-    width: 707px;
-    height: 59px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    display: inline-flex;
-    color: black;
-    font-size: 50px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    text-transform: capitalize;
-    word-wrap: break-word;
-  }
-  /* danh sách menu li */
-  .section {
-    width: 100%;
-    height: 32px;
-    margin-top: 35px;
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
-  
-  .option_category {
-    width: 373px;
-    height: 22px;
-  }
-  
-  .option_category ul {
-    display: flex;
-    justify-content: space-between;
-    color: black;
-  }
-  
-  li {
-    list-style-type: none;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
- 
-  .option_category ul li .item_main {
-    color: black;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    text-transform: capitalize;
-    word-wrap: break-word;
-  }
-  
-  .option_category ul li .item {
-    color: rgba(117, 114, 114, 0.5);
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    text-transform: capitalize;
-    word-wrap: break-word;
-  }
-  
-  .option_category ul li:hover .item {
-    color: rgb(243, 86, 51);
-  }
-  
-  .section button {
-    position: absolute;
-    right: 0px;
-    color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background: #1e2832;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 4px;
-    display: inline-flex;
-    border: 0px;
-  }
-  
-  .section button span {
-    color: white;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    text-transform: capitalize;
-    word-wrap: break-word;
-    margin-left: 4px;
-  }
-  
-  .section button i {
-    color: white;
-    font-size: 14px;
-    font-family: Font Awesome 6 Free;
-    font-weight: 900;
-    word-wrap: break-word;
-  }
+body {
+  overflow-x: hidden;
+}
 
-  .section button:hover {
-    background-color: rgb(243, 86, 51);
-  }
-  
-  .row_product {
-    height: 478px;
-    display: flex;
-    margin: 35px -12px 0 -12px;
-  }
-  
-  .hot {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  
-  .product_column {
-    width: calc(100% / 4);
-  }
-  
-  .product_content {
-    width: 100%;
-    height: 478px;
-    margin-bottom: 24px;
-  }
-  .product_content .product_image {
-    width: 312px;
-    height: 400px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-  }
+.container {
+  margin: auto;
+  min-height: 100vh;
+  width: 1920px;
+}
 
-  .product_content .botton_product {
-    height: 60px;
-    margin: 18px 10px 0 10px;
-    position: relative;
-  }
-  
-  .product_content .botton_product span:nth-child(1) {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
-    color: var(--Dark, #000);
-    text-align: right;
-    font-feature-settings: "clig" off, "liga" off;
-  }
-  
-  .product_content .botton_product span:nth-child(2) {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
-    color: var(--Dark-50, rgba(0, 0, 0, 0.5));
-    font-feature-settings: "clig" off, "liga" off;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-  .product_content .botton_product span:nth-child(3) {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
-    color: var(--Dark, #000);
-    text-align: right;
-    font-feature-settings: "clig" off, "liga" off;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
+.top-main {
+  width: 1920px;
+  height: 847px;
+  flex-shrink: 0;
+  background-color: var(--Black-5, rgba(30, 40, 50, 0.05));
+  position: relative;
+  padding-top: 31px;
+}
 
-  .product_content .product_image {
-    position: relative;
-  }
-  
-  .product_content .product_shop {
-    width: 312px;
-    height: 55px;
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    color: white;
-    font-family: "Open Sans", sans-serif;
-    align-items: center;
-    display: flex;
-    font-size: 20px;
-    padding-left: 5px;
-    display: none;
-  }
-  
- 
-  .product_content .product_shop button {
-    background-color: black;
-    color: white;
-    border: 0px;
-    position: absolute;
-    right: 15px;
-    font-family: "Open Sans", sans-serif;
-    align-items: center;
-    font-size: 17px;
-  }
-  
-  .product_content .product_shop button:hover {
-    color: rgb(243, 86, 51);
-  }
-  
-  .product_content .product_shop i {
-    margin: 12px;
-  }
-  
-  .product_column:hover .product_shop {
-    display: block;
-    align-items: center;
-    display: flex;
-  }
-  
-  .row2-product {
-    height: 478px;
-    display: flex;
-    margin: 24px -12px 0 -12px;
-  }
-  
-  .product_content .product_image .sale {
-    width: 52px;
-    height: 24px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: absolute;
-    top: 22px;
-    left: 0;
-    background-color: black;
-    color: var(--White, #fff);
-    font-feature-settings: "clig" off, "liga" off;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .product_content .product_image .hot {
-    width: 52px;
-    height: 24px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: absolute;
-    top: 22px;
-    left: 0;
-    background-color: #ff6f61;
-    color: var(--White, #fff);
-    font-feature-settings: "clig" off, "liga" off;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .discount {
-    color: orangered !important;
-  }
-  
-  /* giá ẩn botton product*/
-  .botton_product .discount_hide {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
-    color: var(--Dark, #000);
-    text-align: right;
-    font-feature-settings: "clig" off, "liga" off;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    display: none;
-  }
-  
-  .product_content:hover .discount_hide {
-    display: block;
-  }
-  
-  .product_content:hover .discount {
-    display: none;
-  }
-  
-  .product_content:hover .discount1 {
-    display: none;
-  }
-  
-  .product_content .botton_product .discount1 {
-    color: var(--Dark-50, rgba(0, 0, 0, 0.5));
-    text-align: right;
-    font-feature-settings: "clig" off, "liga" off;
-  
-    /* Span 2 */
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration-line: line-through;
-    text-transform: capitalize;
-    position: absolute;
-    bottom: 0;
-    right: 72px;
-  }
-  
-  /*baner*/
-  .baner {
-    width: 1920px;
-    height: 776px;
-    position: relative;
-    margin-top: 140px;
-  }
-  
-  .baner_logo_1 {
-    width: 676px;
-    height: 309px;
-    flex-shrink: 0;
-    position: absolute;
-    left: 1244px;
-    top: 51px;
-    background: cover no-repeat;
-  }
-  
-  .baner_logo_2 {
-    width: 191px;
-    height: 81px;
-    position: absolute;
-    top: 233px;
-    right: 646px;
-  }
-  
-  .baner_content {
-    width: 504px;
-    height: 187px;
-    font-family: "Roboto", sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-    text-transform: capitalize;
-    color: #fff;
-    position: absolute;
-    top: 369px;
-    right: 333px;
-  }
-  
-  .baner button {
-    font-family: "Roboto", sans-serif;
-    font-size: 29px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize;
-    color: var(--Black, #1e2832);
-    font-feature-settings: "clig" off, "liga" off;
-    padding: 19px 26px;
-    position: absolute;
-    left: 1084px;
-    top: 611px;
-  }
-  
-  .baner button:hover {
-    background-color: #ff6f61;
-  }
-  
-  /*slider product*/
-  .slide_product {
-    width: 1320px;
-    height: 639px;
-  
-    margin: 140px 300px 0;
-  }
-  
-  .slide_product .slide_tittle {
-    text-align: center;
-    font-size: 50px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    text-transform: capitalize;
-    word-wrap: break-word;
-  }
-  /*para style*/
-  .para {
-    width: 1920px;
-    height: 754px;
-    background-color: var(--Black-5, rgba(30, 40, 50, 0.05));
-    margin-top: 140px;
-    padding: 100px 300px;
-  }
-  /*title instagram*/
-  .container_para {
-    width: 1320px;
-    height: 554px;
-  }
-  
-  /* chia ô instagram*/
-  
-  .para_title {
-    text-align: center;
-    color: black;
-    font-size: 50px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    text-transform: capitalize;
-    word-wrap: break-word;
-  }
-  
-  .row_para {
-    height: 200px;
-    display: flex;
-    margin: 60px -12px 70px -12px;
-  }
-  
-  .show {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  
-  .para_column {
-    width: calc(100% / 6);
-  }
-  
-  .para_content {
-    width: 100%;
-    height: 200px;
-    margin-bottom: 24px;
-    position: relative;
-  }
-  
-  /* chèn logo instagram ẩn*/
-  .para_content i {
-    position: absolute;
-    font-size: 48px;
-    top: 38%;
-    color: white;
-    left: 39%;
-    display: none;
-  }
-  
-  .para_content:hover i {
-    display: block;
-  }
-  .para_content:hover img {
-    filter: brightness(50%);
-  }
-  
-  /*title form sản phẩm*/
-  .para_form {
-    width: 760px;
-    height: 165px;
-    margin: auto;
-    position: relative;
-  }
-  
-  .para_form p {
-    text-align: center;
-    color: black;
-    font-size: 50px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    text-transform: capitalize;
-    word-wrap: break-word;
-  }
-  
-  /*input*/
-  .para_form form input:nth-child(2) {
-    color: rgba(30, 40, 50, 0.5);
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    text-transform: capitalize;
-    word-wrap: break-word;
-    width: 643px;
-    height: 32px;
-    position: absolute;
-    bottom: 0;
-    padding: 0 0 13px 15px;
-    border: none;
-    border-bottom: 2px solid black;
-    background-color: transparent;
-  }
-  
-  .para_form form input:nth-child(3) {
-    color: #1e2832;
-    font-size: 16px;
-    font-family: Open Sans;
-    font-weight: 400;
-    text-transform: capitalize;
-    word-wrap: break-word;
-    padding: 0 16px 10px 16px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    border: none;
-    border-bottom: 2px solid black;
-    background-color: transparent;
-  }
-  
-  /*footer*/
-  .footer {
-    width: 1920px;
-    height: 355px;
-    margin-top: 140px;
-  }
-  
+.header {
+  width: 1320px;
+  height: 113px;
+  margin: auto;
+  gap: 30px;
+}
 
-  .top_foot {
-    width: 1320px;
-    height: 213px;
-    margin: auto;
-    display: flex;
-  }
+.top-header {
+  width: 1320px;
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
 
-  .footer_menu {
-    width: 300px;
-    height: 213px;
-  }
+.top-header span {
+  color: var(--Dark, #000);
+  font-family: "AmstelvarAlpha", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.top-header svg {
+  margin: 10px;
+}
+.top-header > i {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  display: flex;
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
 
-  .left_foot {
-    width: 392px;
-    height: 207px;
-    margin-right: 56px;
-    align-items: center;
-  }
-  
-  .left_foot span {
-    height: 34px;
-    color: black;
-    font-size: 28px;
-    font-family: "AmstelvarAlpha", sans-serif;
-    font-weight: 400;
-    word-wrap: break-word;
-    margin: 10px;
-    align-items: center;
-  }
-  
-  .left_foot .left_content {
-    margin-top: 32px;
-    color: #1e2832;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    text-transform: capitalize;
-    word-wrap: break-word;
-    line-height: 29px;
-  }
-  
-  .left_foot img {
-    width: 31px;
-    height: 15px;
-  }
-  
-  .left_foot div {
-    margin-top: 32px;
-    color: #1e2832;
-    font-size: 20px;
-    font-family: Font Awesome 6 Brands;
-    font-weight: 400;
-    word-wrap: break-word;
-    word-spacing: 36px;
-    margin-right: 56px;
-  }
-  
-  .left_foot div i {
-    width: 20px;
-    height: 19px;
-    text-align: center;
-  }
-  /* Thẻ menu footer sử dụng ul li*/
-  .footer .footer_menu {
-    width: 200px;
-  }
-  
-  .footer .main_1 {
-    margin-left: 136px;
-  }
-  
-  .footer .main_2 {
-    margin-left: 137px;
-  }
-  
-  .footer p {
-    color: black;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    text-transform: capitalize;
-    word-wrap: break-word;
-    margin-bottom: 22px;
-  }
-  
-  .footer ul {
-    color: #1e2832;
-    font-size: 14px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 34px;
-  }
-  
-  .footer ul li a {
-    text-decoration: none;
-    color: black;
-  }
-  .footer_menuul li:hover a {
-    color: rgb(243, 86, 51);
-  }
-  
+.account {
+  display: flex;
+  width: 221px;
+  height: 25px;
+  position: absolute;
+  top: 4px;
+  right: 2px;
+  padding-right: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .botton_footer {
-    width: 1920px;
-    height: 52px;
-    background: #1e2832;
-    margin-top: 90px;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 375px;
-    display: inline-flex;
-    justify-content: center;
-  }
-  
-  .botton_footer .year {
-    color: white;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    text-transform: capitalize;
-    word-wrap: break-word;
-  }
-  .botton_footer button {
-    padding: 5px 15px;
-    background-color: #1e2832;
-    border: none;
-  }
-  
-  .botton_footer button:hover {
-    background-color: rgb(243, 86, 51);
-  }
-  
-  .botton_footer button span {
-    color: white;
-    font-size: 16px;
-    font-family: Open Sans;
-    font-weight: 400;
-    text-transform: capitalize;
-    word-wrap: break-word;
-  }
-  
-  .botton_footer button i {
-    color: white;
-    font-size: 14px;
-    font-family: Font Awesome 6 Free;
-    font-weight: 900;
-    word-wrap: break-word;
-    margin-left: 4px;
-  }
-  
-  .botton_footer button a {
-    text-decoration: none;
-    color: white;
-  }
-  
+.account button {
+  width: 100px;
+  height: 25px;
+  border: none;
+  background: none;
+  margin: 0;
+  font-size: 18px;
+}
+
+.account li {
+  list-style-type: none;
+}
+
+.account li button i {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+.account li button a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  color: black;
+}
+.account li button:hover a {
+  color: rgb(243, 86, 51);
+}
+
+.account li button:hover i {
+  color: rgb(243, 86, 51);
+}
+
+hr {
+  height: 1px;
+  background: #e3e3e3;
+}
+
+.header .menu {
+  width: 1320px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul li {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--Dark, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  list-style-type: none;
+}
+
+.header ul li:hover {
+  color: rgb(243, 86, 51);
+}
+
+.top-main .product {
+  width: 1226px;
+  height: 562px;
+  display: flex;
+  margin-left: 300px;
+  margin-top: 81px;
+  z-index: 0;
+}
+
+.top-main .product .content {
+  width: 686px;
+  height: 364px;
+  margin-top: 74px;
+  padding-left: 4px;
+  z-index: 99999999;
+}
+
+.product .content p:nth-child(1) {
+  color: black;
+  font-size: 74px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  line-height: 55px;
+  word-wrap: break-word;
+}
+
+.product .content p:nth-child(2) {
+  color: black;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 61px;
+  word-wrap: break-word;
+  margin-top: 52px;
+}
+
+.product .image {
+  margin-left: 98px;
+}
+.product .content button {
+  width: auto;
+  height: 72px;
+  padding: 19px 26px 19px 26px;
+  background-color: #1e2832;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: inline-flex;
+  margin-top: 66px;
+  border: 0px;
+}
+
+.product .content button span {
+  color: white;
+  font-size: 29px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  margin-left: 8px;
+}
+
+.product .content button i {
+  color: white;
+  font-size: 24px;
+  font-family: Font Awesome 6 Free;
+  font-weight: 900;
+  word-wrap: break-word;
+}
+
+.product .content button:hover {
+  background-color: rgb(243, 86, 51);
+}
+
+.top-main .flower {
+  position: absolute;
+  width: 1920px;
+  height: 373px;
+  top: 365.8px;
+  display: flex;
+}
+
+.top-main .flower .frame1 {
+  width: 132.31px;
+  height: 114.61px;
+  left: 0.02px;
+  bottom: 3%;
+  position: absolute;
+}
+
+.top-main .flower .frame2 {
+  width: 194.75px;
+  height: 261.91px;
+  position: absolute;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  right: 10px;
+  bottom: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.brand {
+  width: 1320px;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-flex;
+  margin: 90px 300px 90px 300px;
+}
+
+.hot_category {
+  width: 1320px;
+  height: 648px;
+  margin: 0px 300px 90px 300px;
+
+  display: flex;
+  position: relative;
+}
+
+.hot_category p {
+  width: 648px;
+  height: 52px;
+  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  position: absolute;
+  top: 298px;
+  left: -350px;
+  transform: rotate(-90deg);
+  text-align: center;
+  color: var(--Dark, #000);
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+.card_left {
+  width: 648px;
+  height: 648px;
+  position: relative;
+}
+/* content product ẩn */
+.hot_category .product_shop {
+  width: 100%;
+  height: 52px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  padding-left: 14px;
+  padding-right: 14px;
+  display: none;
+}
+
+.card_left:hover .product_shop {
+  display: inline-block;
+  justify-content: space-between;
+  padding-left: 14px;
+  display: flex;
+  padding-right: 14px;
+}
+
+.content_card:hover .product_shop {
+  display: block;
+  justify-content: space-between;
+  padding-left: 14px;
+  display: flex;
+  padding-right: 14px;
+}
+
+/* chia ô card product*/
+.card_right {
+  width: 648px;
+  height: 648px;
+  margin-left: 24px;
+}
+
+.row {
+  height: 312px;
+  display: flex;
+  margin: 0 -12px;
+}
+
+.card {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.column_1 {
+  width: calc(100% / 2);
+}
+
+.content_card {
+  width: 100%;
+  height: 312px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.column_1 .content_card .sale {
+  width: 52px;
+  height: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  background-color: black;
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row1 {
+  height: 312px;
+  display: flex;
+  margin: 24px -12px 0 -12px;
+}
+
+/* product tiêu đề, menu*/
+.products {
+  width: 1320px;
+  height: 1141px;
+  margin: 140px 300px 0 300px;
+}
+
+.top_title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* tiêu đề*/
+.title {
+  width: 707px;
+  height: 59px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+  color: black;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+/* danh sách menu li */
+.section {
+  width: 100%;
+  height: 32px;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.option_category {
+  width: 373px;
+  height: 22px;
+}
+
+.option_category ul {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.option_category ul li .item_main {
+  color: black;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+.option_category ul li .item {
+  color: rgba(117, 114, 114, 0.5);
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+.option_category ul li:hover .item {
+  color: rgb(243, 86, 51);
+}
+
+.section button {
+  position: absolute;
+  right: 0px;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #1e2832;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+  display: inline-flex;
+  border: 0px;
+}
+
+.section button span {
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  margin-left: 4px;
+}
+
+.section button i {
+  color: white;
+  font-size: 14px;
+  font-family: Font Awesome 6 Free;
+  font-weight: 900;
+  word-wrap: break-word;
+}
+
+.section button:hover {
+  background-color: rgb(243, 86, 51);
+}
+
+.row_product {
+  height: 478px;
+  display: flex;
+  margin: 35px -12px 0 -12px;
+}
+
+.hot {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.product_column {
+  width: calc(100% / 4);
+}
+
+.product_content {
+  width: 100%;
+  height: 478px;
+  margin-bottom: 24px;
+}
+.product_content .product_image {
+  width: 312px;
+  height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.product_content .botton_product {
+  height: 60px;
+  margin: 18px 10px 0 10px;
+  position: relative;
+}
+
+.product_content .botton_product span:nth-child(1) {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--Dark, #000);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+.product_content .botton_product span:nth-child(2) {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--Dark-50, rgba(0, 0, 0, 0.5));
+  font-feature-settings: "clig" off, "liga" off;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.product_content .botton_product span:nth-child(3) {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--Dark, #000);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.product_content .product_image {
+  position: relative;
+}
+
+.product_content .product_shop {
+  width: 312px;
+  height: 55px;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  padding-left: 5px;
+  display: none;
+}
+
+.product_content .product_shop button {
+  background-color: black;
+  color: white;
+  border: 0px;
+  position: absolute;
+  right: 15px;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+  font-size: 17px;
+}
+
+.product_content .product_shop button:hover {
+  color: rgb(243, 86, 51);
+}
+
+.product_content .product_shop i {
+  margin: 12px;
+}
+
+.product_column:hover .product_shop {
+  display: block;
+  align-items: center;
+  display: flex;
+}
+
+.row2-product {
+  height: 478px;
+  display: flex;
+  margin: 24px -12px 0 -12px;
+}
+
+.product_content .product_image .sale {
+  width: 52px;
+  height: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  background-color: black;
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_content .product_image .hot {
+  width: 52px;
+  height: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  background-color: #ff6f61;
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount {
+  color: orangered !important;
+}
+
+/* giá ẩn botton product*/
+.botton_product .discount_hide {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--Dark, #000);
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+.product_content:hover .discount_hide {
+  display: block;
+}
+
+.product_content:hover .discount {
+  display: none;
+}
+
+.product_content:hover .discount1 {
+  display: none;
+}
+
+.product_content .botton_product .discount1 {
+  color: var(--Dark-50, rgba(0, 0, 0, 0.5));
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Span 2 */
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: line-through;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 0;
+  right: 72px;
+}
+
+/*baner*/
+.baner {
+  width: 1920px;
+  height: 776px;
+  position: relative;
+  margin-top: 140px;
+}
+
+.baner_logo_1 {
+  width: 676px;
+  height: 309px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 1244px;
+  top: 51px;
+  background: cover no-repeat;
+}
+
+.baner_logo_2 {
+  width: 191px;
+  height: 81px;
+  position: absolute;
+  top: 233px;
+  right: 646px;
+}
+
+.baner_content {
+  width: 504px;
+  height: 187px;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #fff;
+  position: absolute;
+  top: 369px;
+  right: 333px;
+}
+
+.baner button {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  color: var(--Black, #1e2832);
+  font-feature-settings: "clig" off, "liga" off;
+  padding: 19px 26px;
+  position: absolute;
+  left: 1084px;
+  top: 611px;
+}
+
+.baner button:hover {
+  background-color: #ff6f61;
+}
+
+/*slider product*/
+.slide_product {
+  width: 1320px;
+  height: 639px;
+
+  margin: 140px 300px 0;
+}
+
+.slide_product .slide_tittle {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+/*para style*/
+.para {
+  width: 1920px;
+  height: 754px;
+  background-color: var(--Black-5, rgba(30, 40, 50, 0.05));
+  margin-top: 140px;
+  padding: 100px 300px;
+}
+/*title instagram*/
+.container_para {
+  width: 1320px;
+  height: 554px;
+}
+
+/* chia ô instagram*/
+
+.para_title {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+.row_para {
+  height: 200px;
+  display: flex;
+  margin: 60px -12px 70px -12px;
+}
+
+.show {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.para_column {
+  width: calc(100% / 6);
+}
+
+.para_content {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+/* chèn logo instagram ẩn*/
+.para_content i {
+  position: absolute;
+  font-size: 48px;
+  top: 38%;
+  color: white;
+  left: 39%;
+  display: none;
+}
+
+.para_content:hover i {
+  display: block;
+}
+.para_content:hover img {
+  filter: brightness(50%);
+}
+
+/*title form sản phẩm*/
+.para_form {
+  width: 760px;
+  height: 165px;
+  margin: auto;
+  position: relative;
+}
+
+.para_form p {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+/*input*/
+.para_form form input:nth-child(2) {
+  color: rgba(30, 40, 50, 0.5);
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  width: 643px;
+  height: 32px;
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 13px 15px;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: transparent;
+}
+
+.para_form form input:nth-child(3) {
+  color: #1e2832;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 400;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  padding: 0 16px 10px 16px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: transparent;
+}
+
+/*footer*/
+.footer {
+  width: 1920px;
+  height: 355px;
+  margin-top: 140px;
+}
+
+.top_foot {
+  width: 1320px;
+  height: 213px;
+  margin: auto;
+  display: flex;
+}
+
+.footer_menu {
+  width: 300px;
+  height: 213px;
+}
+
+.left_foot {
+  width: 392px;
+  height: 207px;
+  margin-right: 56px;
+  align-items: center;
+}
+
+.left_foot span {
+  height: 34px;
+  color: black;
+  font-size: 28px;
+  font-family: "AmstelvarAlpha", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin: 10px;
+  align-items: center;
+}
+
+.left_foot .left_content {
+  margin-top: 32px;
+  color: #1e2832;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  line-height: 29px;
+}
+
+.left_foot img {
+  width: 31px;
+  height: 15px;
+}
+
+.left_foot div {
+  margin-top: 32px;
+  color: #1e2832;
+  font-size: 20px;
+  font-family: Font Awesome 6 Brands;
+  font-weight: 400;
+  word-wrap: break-word;
+  word-spacing: 36px;
+  margin-right: 56px;
+}
+
+.left_foot div i {
+  width: 20px;
+  height: 19px;
+  text-align: center;
+}
+/* Thẻ menu footer sử dụng ul li*/
+.footer .footer_menu {
+  width: 200px;
+}
+
+.footer .main_1 {
+  margin-left: 136px;
+}
+
+.footer .main_2 {
+  margin-left: 137px;
+}
+
+.footer p {
+  color: black;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  word-wrap: break-word;
+  margin-bottom: 22px;
+}
+
+.footer ul {
+  color: #1e2832;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 34px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+.footer_menuul li:hover a {
+  color: rgb(243, 86, 51);
+}
+
+.botton_footer {
+  width: 1920px;
+  height: 52px;
+  background: #1e2832;
+  margin-top: 90px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 375px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.botton_footer .year {
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+.botton_footer button {
+  padding: 5px 15px;
+  background-color: #1e2832;
+  border: none;
+}
+
+.botton_footer button:hover {
+  background-color: rgb(243, 86, 51);
+}
+
+.botton_footer button span {
+  color: white;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 400;
+  text-transform: capitalize;
+  word-wrap: break-word;
+}
+
+.botton_footer button i {
+  color: white;
+  font-size: 14px;
+  font-family: Font Awesome 6 Free;
+  font-weight: 900;
+  word-wrap: break-word;
+  margin-left: 4px;
+}
+
+.botton_footer button a {
+  text-decoration: none;
+  color: white;
+}
