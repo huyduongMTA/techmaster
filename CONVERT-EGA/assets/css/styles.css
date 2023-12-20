@@ -1,0 +1,187 @@
+/* ====== Reset Browser =========== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ======= Code tai su dung ========= */
+.container {
+  width: 1200px;
+  margin: auto; /* can phan tu ra giua */
+}
+
+
+/* ========= Header Main./Start ========= */
+
+/* Header Top./Start */
+.header-top {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  display: flex;
+  /* Can giua theo chieu ngang*/
+  justify-content: center; 
+  /* Can giua theo chieu doc */
+  align-items: center;
+  /* Phan tu tuyet doi -- Mat troi */
+  position: relative;
+}
+.header-top a {
+  color: white;
+  font-size: 15px;
+  /* Bo gach chan */
+  text-decoration: none;
+  /* Viet hoa */
+  text-transform: uppercase;
+}
+.close-topbar {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border: none;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Bo tron PT */
+  border-radius: 50%;
+  /* Do mo cua phan tu -- Mac dinh 1 */
+  opacity: 0.5;
+  /* Mui ten sang hinh ban tay */
+  cursor: pointer;
+  /* Phan tu tuong doi */
+  position: absolute;
+  right: 5px;
+}
+.close-topbar:hover {
+  opacity: 1;
+}
+
+/* Header Bottom */
+.header-bottom {
+  width: 100%;
+}
+.wrap-header-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+.header-menu {
+  height: 65px;
+}
+.menu-main {
+  display: flex;
+  align-items: center;
+  height: 65px;
+}
+.menu-main li {
+  list-style: none;
+  margin-right: 25px;
+  position: relative; /*Mat troi - Gia tri tuyet doi*/
+  padding: 22px 0;
+}
+.menu-main li i {
+  font-size: 14px;
+}
+.menu-main li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+.header-menu-button {
+  width: 10%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+.header-menu-button button {
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  /* Mau trong suot */
+  background-color: transparent;
+}
+.header-menu-button button:hover {
+  background-color: rgba(238, 238, 238, 0.4);
+}
+.header-menu-button button i {
+  color: gray
+}
+.header-menu-button .active i {
+  color: black;
+}
+.header-user {
+  height: 65px;
+}
+.header-user ul {
+  display: flex;
+  align-items: center;
+  height: 65px;
+}
+.header-user ul li {
+  list-style: none;
+  margin-left: 25px;
+  position: relative; /* Tuyet doi */
+}
+.header-user ul li i {
+  color: black;
+  font-size: 20px;
+}
+.header-user ul li span {
+  position: absolute; /* Tuong doi */
+  top: -12px;
+  right: -10px;
+  width: 18px;
+  height: 18px;
+  background-color: #2C51B0;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sub menu */
+.sub-menu-c1 {
+  position: absolute;
+  z-index: 9999999;
+  top: 100%;
+  width: 250px;
+  background-color: #fff;
+  padding: 5px 0;
+  display: none;
+  /* display: block; */
+}
+.menu-main li:hover .sub-menu-c1 {
+  display: block;
+}
+.sub-menu-c1 li {
+  margin-right: 0;
+  padding: 6px 10px;
+  position: relative; /*Tuyet doi*/
+}
+.sub-menu-c1 li a {
+  font-size: 15px;
+}
+/* menu c2 */
+.sub-menu-c2 {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 250px;
+  background-color: #fff;
+  display: none;
+}
+.sub-menu-c1 li:hover .sub-menu-c2 {
+  display: block;
+}

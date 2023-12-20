@@ -1,0 +1,89 @@
+/* Reset Browser */
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+/* === Thay doi gia tri 1 thuoc tinh ==== */
+.box-1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  transition: width 2s;
+}
+
+.box-1:hover { 
+  /* Di chuot vao 1 phan tu :hover */
+  width: 600px;
+}
+
+
+/* ==== Thay doi gia tri cua nhieu thuoc tinh ===*/
+.box-2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+
+  transition: width 2s, height 3s;
+}
+.box-2:hover {
+  width: 600px;
+  height: 400px;
+}
+
+/* ==== Toc do chuyen doi === */
+.wrap-box .box {
+  width: 200px;
+  height: 200px;
+}
+
+.wrap-box .box-3 {
+  background-color: green;
+  transition: width 3s;
+
+  /* Quy dinh trong dien ra toc do nhu nao ? */
+  transition-timing-function: linear;
+}
+
+.wrap-box .box-4 {
+  background-color: violet;
+  transition: width 3s;
+
+  transition-timing-function: ease;
+}
+.wrap-box .box-5 {
+  background-color: orange;
+  transition: width 3s;
+
+  transition-timing-function: ease-in;
+
+}
+
+
+/* Di chuot vao box 3 muon width: 200 -> 600 */
+.wrap-box .box-3:hover {
+  width: 600px;
+}
+.wrap-box .box-4:hover {
+  width: 600px;
+}
+.wrap-box .box-5:hover {
+  width: 600px;
+}
+
+
+/* Do tre cua transion */
+.box-6 {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  transition: width 3s;
+
+  transition-delay: 4s;
+}
+
+.box-6:hover {
+  width: 600px;
+}

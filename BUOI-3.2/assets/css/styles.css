@@ -1,0 +1,51 @@
+/* Reset Browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: pink;
+
+  display: flex; /*PT nam tren 1 hang*/
+}
+.logo {
+  width: 20%;
+  height: 150px;
+  background-color: blue;
+}
+.menu {
+  width: 80%;
+  height: 150px;
+  background-color: green;
+}
+
+
+/* Content */
+
+.wrap-content {
+  height: 500px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+}
+
+.content-1 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+.content-2 {
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+}
+.content-3 {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}

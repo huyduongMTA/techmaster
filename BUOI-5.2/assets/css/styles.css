@@ -1,0 +1,55 @@
+/* Reset Browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Tai su dung rat nhieu lan */
+.container {
+  max-width: 80%;
+  margin: auto; /* Can giua */
+  height: 1800px;
+  background-color: pink;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px; /* 0: tren duoi, -15px trai phai*/
+}
+.column {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Kich thuoc cot */
+.column-2 {
+  width: calc(100%  / 2);
+}
+.column-3 {
+  width: calc(100% / 3);   /* Cong thuc tinh CSS */
+}
+.column-4 {
+  width: calc(100% / 4);
+}
+
+/* San pham hot */
+.product-hot {
+  padding-top: 50px;
+}
+.content {
+  width: 100%;
+  height: 400px;
+  background-color: blue;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* margin: 0 -15px 0 -15px; top right bottom left */

@@ -1,0 +1,84 @@
+/* 
+  + Margin: Khoang cach tu 1 phan tu nay den phan tu khac
+  + padding: Khoang cach tu 1 phan tu nay den phan tu khac
+ */
+
+/* Reset Browser */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* 
+  + Dat Ten theo Class 
+  + Goi ten phan tu class dung dau "."
+*/
+.para-1 {
+  color: red;
+}
+
+.para-2 {
+  color: blue;
+}
+.para-3 {
+  color: violet;
+}
+
+/* 
+  + Dat ten theo id
+  + Goi phan tu theo id dung dau "#"
+*/
+#title-1 {
+  color: green;
+}
+#title-2 {
+  color: pink;
+  font-style: italic;
+}
+
+
+/* Dat ten theo kieu cha con */
+div h4 {
+  color: orange;
+}
+
+/* 
+  + Goi ten theo link chua bi click
+*/
+a:link {
+  color: black;
+}
+a:visited {
+  color: red;
+}
+
+/* 
+  + Margin & padding: Khoang cach
+
+  + Margin: Vien phan tu do ra ngoai
+  + Padding: Tu vien phan tu do vao trong
+ */
+
+
+.box-1 {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  /* margin-top: 50px; */
+  /* padding-top: 50px; */
+  margin-left: 100px;
+  /* border: 5px dotted red ; */
+
+  border: 5px solid red; /*Tao vien*/
+  /* border-radius: 20px; */
+  border-radius: 50%; /*Bo hinh tron*/
+}
+
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  /* display: none; */
+  display: block;
+}

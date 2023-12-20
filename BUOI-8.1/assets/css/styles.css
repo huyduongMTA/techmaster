@@ -1,0 +1,129 @@
+/* Reset Browser */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Animimation Loading */
+.spinner {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 10px solid blue;
+  margin: auto;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+  /* 
+    => Su dung no 
+    + animation-name: Ten animation
+    + animation-duration: Thoi gian thuc hien 1 chu ki (s)
+    + animation-delay: Thoi gian tri hoan truoc khi chay animation
+    + animation-iteration-count: so vong minh mong muon
+    + animation-direction: Chieu chuyen dong animation
+    + animation-timing-function: toc do chay nhu nao
+    + animation-fill-mode: the hien trang thai cuoi cung animation dung lai o dau
+    */
+  /* animation: loading .5s 2s 2 linear backwards; */
+  animation: loading .5s infinite linear;
+}
+
+
+
+/* Khai bao animation Loading */
+@keyframes loading {
+  /* from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  } */
+
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    border-color: red;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* 
+  from: Tu dau ==== to: toi dau
+*/
+
+/* Animation Heart */
+.heart {
+  width: 80px;
+  margin: auto;
+  position: relative; /*Tuyet doi: Mat troi*/
+
+  /* Su dung animation */
+  animation: heart-animation .5s infinite linear;
+}
+.heart div {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+.heart div:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(45deg);
+  border-radius: 50% 0 0 50%; /* top right bottom left*/
+}
+.heart div:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  transform: rotate(45deg);
+  border-radius: 50% 50% 0 0;
+}
+.heart div:nth-child(3) {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transform: rotate(45deg);
+}
+
+/* Khai bao animation */
+@keyframes heart-animation {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(3);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Cach 1
+  + :nth-child()
+*/
+
+/* .heart div:nth-child(3) {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+} */
+
+/* Cach 2 
+  + :first-child
+  + :last-child
+*/
+/* .heart div:last-child {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+} */

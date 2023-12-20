@@ -1,0 +1,15 @@
+h3 {
+  color: blue;
+}
+h1 {
+  color: aqua !important;
+}
+
+/* Viet nhieu phan tu css cung thuoc tinh */
+
+h4, h5 {
+  color: yellowgreen;
+}
+/* h5 {
+  color: yellowgreen;
+} */

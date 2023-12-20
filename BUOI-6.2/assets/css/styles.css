@@ -1,0 +1,52 @@
+/* Reset Browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Transform: translate  */
+.box-1 {
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+
+  /* transform: translate(100px, 200px); */
+  /* transform: translateX(50px); */
+  /* transform: translateY(100px); */
+}
+
+/* Transform: scale */
+.box-2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.box-2:hover {
+  /* width: 400px;
+  height: 400px; */
+  transform: scale(2);
+}
+
+/* Transform: rotate */
+.box-3 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  transform: rotate(120deg);
+}
+
+/* Ket hop transiton & transform  */
+.box-4 {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+
+  transition: width 0.2s, height .2s, transform .2s;
+}
+.box-4:hover {
+  width: 500px;
+  height: 500px;
+  transform: rotate(180deg);
+}
