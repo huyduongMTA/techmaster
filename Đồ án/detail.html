@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link rel="stylesheet" href="./assets/css/details.css" />
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Link Favicon -->
+    <link rel="icon" href="./assets/image/Logo.png" type="image/x-icon" />
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css" />
+
+    <!-- Customizable CSS -->
+    <link rel="stylesheet" href="assets\css\main.css" />
+    <link rel="stylesheet" href="assets\css\blue.css" />
+    <link rel="stylesheet" href="assets\css\owl.carousel.css" />
+    <link rel="stylesheet" href="assets\css\owl.transitions.css" />
+    <link rel="stylesheet" href="assets\css\animate.min.css" />
+    <link rel="stylesheet" href="assets\css\rateit.css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-select.min.css" />
+
+    <!-- Icons/Glyphs -->
+    <link rel="stylesheet" href="assets\css\font-awesome.css" />
+
+    <!-- Fonts -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="./index.html" class="logo"
+        ><i class="bx bxs-t-shirt"></i> Adidas</a
+      >
+
+      <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#new">New Arrival</a></li>
+        <li>
+          <a href="#products">Products</a>
+          <ul class="sub-menu">
+            <li>
+              <a href="#">Hoodie</a>
+              <ul class="sub-menu">
+                <li><a href="">Men</a></li>
+                <li><a href="">Women</a></li>
+              </ul>
+            </li>
+            <li><a href="">Shoes</a></li>
+            <li>
+              <a href="">Jeans</a>
+              <ul class="sub-menu">
+                <li><a href="">Men</a></li>
+                <li><a href="">Women</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#reviews">Reviews</a></li>
+      </ul>
+
+      <!-- Icons -->
+      <div class="header-icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-search" id="search-icon"></i>
+        <i class="bx bx-cart-alt" id="cart-icon"></i>
+        <i class="bx bx-user" id="user-icon"></i>
+      </div>
+
+      <!-- Search Box -->
+      <div class="search-box">
+        <input type="search" name="" id="" placeholder="Search Here..." />
+      </div>
+
+      <!-- Cart Box -->
+      <div class="cart">
+        <!-- Box 1 -->
+        <div class="box">
+          <img src="./assets/image/new1.jpg" alt="" />
+          <div class="text">
+            <h3>Hoodie</h3>
+            <span>$30.26</span>
+            <div class="quantity">
+              <span class="minus"><</span>
+              <span>x1</span>
+              <span class="plus">></span>
+            </div>
+          </div>
+          <i class="bx bxs-trash-alt"></i>
+        </div>
+        <!-- Box 2 -->
+        <div class="box">
+          <img src="./assets/image/new2.jpg" alt="" />
+          <div class="text">
+            <h3>Hoodie</h3>
+            <span>$50.12</span>
+            <div class="quantity">
+              <span class="minus"><</span>
+              <span>x1</span>
+              <span class="plus">></span>
+            </div>
+          </div>
+          <i class="bx bxs-trash-alt"></i>
+        </div>
+
+        <h2>Total: $80.38</h2>
+        <a href="#" class="btn">Check out</a>
+      </div>
+
+      <div class="user">
+        <h2>Login Now</h2>
+        <input type="email" placeholder="Your Email..." />
+        <input type="password" name="" id="" placeholder="Password" />
+        <input type="submit" value="Login" class="login-btn" />
+        <p>Forget Password <a href="#">Reset now</a></p>
+        <p>Don't have account <a href="#">Create one</a></p>
+      </div>
+    </header>
+
+    <div class="card-wrapper">
+      <div class="card">
+        <!-- card left -->
+        <div class="product-img">
+          <div class="img-display">
+            <div class="img-showcase">
+              <img src="./assets/image/p1.jpg" alt="" />
+              <img src="./assets/image/p2.jpg" alt="" />
+              <img src="./assets/image/p3.jpg" alt="" />
+              <img src="./assets/image/p4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="img-select">
+            <div class="img-item">
+              <a href="#" data-id="1">
+                <img src="./assets/image/p1.jpg" alt="Hoodie image" />
+              </a>
+            </div>
+            <div class="img-item">
+              <a href="#" data-id="2">
+                <img src="./assets/image/p2.jpg" alt="Hoodie image" />
+              </a>
+            </div>
+            <div class="img-item">
+              <a href="#" data-id="3">
+                <img src="./assets/image/p3.jpg" alt="Hoodie image" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- card right -->
+        <div class="product-content">
+          <h2 class="product-title">Hoodie Adidas 13c</h2>
+          <a href="#" class="product-link">Visit Adidas store</a>
+          <div class="product-rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <span>4.7(26)</span>
+          </div>
+          <div class="roduct-price">
+            <p class="last-price">Old Price: <span>$15.99</span></p>
+            <p class="new-price">Old Price: <span>$13.06</span></p>
+          </div>
+          <div class="product-detail">
+            <h2>about this item</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo,
+              inventore adipisci nulla quos voluptate!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo
+              vero enim totam perferendis obcaecati repellendus?
+            </p>
+            <ul>
+              <li>Color: <span>Red</span></li>
+              <li>Category: <span>Hoodie</span></li>
+              <li>Shipping Area: <span>All over the world</span></li>
+              <li>Shipping Fee: <span>Free</span></li>
+            </ul>
+          </div>
+          <div class="purchase-info">
+            <input type="number" min="0" value="1" />
+            <button type="button" class="btn">
+              Add to cart <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button type="button" class="btn">Compare</button>
+          </div>
+
+          <div class="social-links">
+            <p>Share At:</p>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/detail.js"></script>
+  </body>
+</html>

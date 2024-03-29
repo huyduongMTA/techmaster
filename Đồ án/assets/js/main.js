@@ -16,6 +16,7 @@ document.querySelector("#cart-icon").onclick = () => {
   navbar.classList.remove("active");
 };
 
+
 let user = document.querySelector(".user");
 
 document.querySelector("#user-icon").onclick = () => {
@@ -40,6 +41,11 @@ window.onscroll = () =>{
   cart.classList.remove("active");
   user.classList.remove("active");
 }
+
+
+// Add to cart
+
+
 
 // Navbar Scroll
 let header = document.querySelector("header");
